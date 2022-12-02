@@ -1,12 +1,11 @@
 #include <iostream>
+#include <lib.h>
 using namespace std;
 
 int main(){
   int n = 0, num = 2;
-  bool c = true;
 cin >> n;
-  c = primo (n, num);
-if (c){
+if (primo(n, num)){
 cout << "numero primo" << endl;
 } else {
 cout << "numero non primo" << endl;
