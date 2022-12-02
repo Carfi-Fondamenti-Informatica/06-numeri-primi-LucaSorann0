@@ -1,7 +1,8 @@
 #include "lib.h"
 
-bool primo (int n, int num) {
-int q = n % num;
+bool primo(int n, int num) {
+int q = 0;
+q = n % num;
 bool opzione = true;
 if (n>1) {
 if (q != 0) {
